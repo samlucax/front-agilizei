@@ -26,7 +26,7 @@ class Login extends React.Component {
   submitHandler = e => {
     e.preventDefault();
     axios
-      .post('https://serverest.dev/login', {
+      .post('https://serverest-api.agilizei.com/login', {
         email: this.state.email,
         password: this.state.password,
        })
